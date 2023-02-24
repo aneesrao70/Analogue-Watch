@@ -1,0 +1,31 @@
+#clock {
+    background-color:rgb(2, 219, 67);
+    border: 8px solid rgb(200, 211, 50);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,70%);
+}
+#cntr {
+    position: absolute;
+    border: 7px solid rgb(25, 194, 19);
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#scnd, #min, #hour {
+    border: 2px solid red;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) ;
+    transform-origin: center left;
+}
