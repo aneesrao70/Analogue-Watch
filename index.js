@@ -51,7 +51,7 @@ function timer() {
 
   const SecAngle = ((seconds * 6)-90) + "deg";
   const MinAngle = ((minutes * 6)-90) + "deg";
-  const HourAngle = ((hour * 12 / 360)-90) + "deg";
+  const HourAngle = ((hour * 360 / 12)-90) + "deg";
 
 
 
